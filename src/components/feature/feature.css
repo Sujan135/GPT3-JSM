@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-direction: row;
 
     margin: 1rem;
 }
@@ -45,3 +46,21 @@
     /* or 188% */
     color: var(--color-text);
 }
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-container__feature-title h1 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt3__features-container__feature-title p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .gpt3__features-container__feature {
+        margin: 1rem 0;
+    }
+}
+
